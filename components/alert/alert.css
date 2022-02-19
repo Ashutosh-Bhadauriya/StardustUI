@@ -1,0 +1,41 @@
+.alert-box {
+  border-radius: 0.3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fa {
+  margin-right: 0.625rem;
+  width: 1em;
+  height: 1em;
+}
+
+.alert-primary {
+  background-color: #eaf1ff;
+  color: var(--primary-color);
+}
+.alert-box .link-text,
+.alert-box .btn {
+  font-weight: 500;
+}
+.alert-secondary {
+  background-color: #fff3d9;
+  color: var(--secondary-color);
+}
+.alert-success {
+  background-color: #5dffc9;
+  color: var(--success-color);
+}
+.alert-danger {
+  color: var(--danger-color);
+  background-color: #ffbfc7;
+}
+.alert-warning {
+  color: var(--warning-color);
+  background-color: #ffd9a3;
+}
+
+
