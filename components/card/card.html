@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="../commoncss/colors.css" />
+    <link rel="stylesheet" href="../commoncss/common.css" />
+    <link rel="stylesheet" href="../commoncss/fonts.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Component | Card</title>
+  </head>
+  <body>
+    <div class="container flex-container">
+      <div class="card card-width">
+        <div class="card-badge hidden">New</div>
+        <img
+          class="img img-border img-dimensions hidden"
+          src="https://picsum.photos/200/300"
+        />
+        <div class="p-1">
+          <h3>Text Card</h3>
+          <p class="pt-1">
+            The rain and wind abruptly stopped, but the sky still had the gray
+            swirls of storms in the distance. Dave knew this feeling all too
+            well. The calm before the storm. He only had a limited amount of
+            time before all Hell broke loose, but he stopped to admire the
+            calmness. Maybe it would be different this time, he thought, with
+            the knowledge deep within that it wouldn't.
+          </p>
+          <span class="material-icons span hidden">cancel</span>
+        </div>
+
+        <img
+          class="hidden"
+          src="https://media.istockphoto.com/photos/across-the-universe-traveling-in-space-time-travel-scene-of-the-in-picture-id664390112?b=1&k=20&m=664390112&s=170667a&w=0&h=HsHhmJvOKWHhiJLBgqAA7VM_6PFLCirnRLUIUmIBci4="
+        />
+        <div class="hidden">
+          <p>Card with random text on it. Please don't read it!!</p>
+        </div>
+
+        <div class="hidden">
+          <button class="read btn btn-error">Read</button>
+          <button class="bookmark btn btn-primary">Bookmark</button>
+          <span class="material-icons"> favorite_border </span>
+          <span class="material-icons"> share </span>
+          <span class="material-icons"> more_vert </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container flex-container">
+      <div class="card card-width">
+        <div class="card-badge hidden">New</div>
+        <img class="hidden" src="https://picsum.photos/200/300" />
+        <div class="p-1 flex-container">
+          <h3>Card with Dismiss</h3>
+          <i class="fa fa-times"></i>
+          <p class="hidden">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            dolorem suscipit eos quod magnam eligendi esse enim recusandae rerum
+            rem laudantium distinctio aliquam molestiae consequatur minus
+            repellendus molestias, adipisci quam!
+          </p>
+        </div>
+
+        <img class="img img-dimensions" src="https://picsum.photos/200/300" />
+        <div class="p-1">
+          <p>Card with random text on it. Please don't read it!!</p>
+        </div>
+
+        <div class="p-1 buttons flex-container">
+          <button class="read btn btn-default">Read</button>
+          <button class="bookmark btn btn-default">Bookmark</button>
+          <i class="fa fa-heart-o"></i>
+          <i class="fa fa-share-square-o"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="container flex">
+      <div class="card card-width">
+        <div class="card-badge">New</div>
+        <img
+          class="img img-border img-dimensions"
+          src="https://picsum.photos/200/300"
+        />
+        <div class="p-1">
+          <h3>Card with card-badge</h3>
+          <p class="pt-1">
+            Card with random text on it. Please don't read it!!
+          </p>
+          <span class="material-icons span hidden">cancel</span>
+        </div>
+
+        <img class="hidden" src="https://picsum.photos/200/300" />
+        <div class="p-1 hidden">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In tempore
+            quos
+          </p>
+        </div>
+
+        <div class="p-1 buttons flex flex-end">
+          <button class="read btn btn-error hidden">Read</button>
+          <button class="bookmark btn btn-primary hidden">Bookmark</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container flex">
+      <div class="card card-width">
+        <div class="card-badge hidden">New</div>
+        <img class="hidden" src="https://picsum.photos/200/300" />
+        <div class="img-overlay">
+          <img class="img img-dimensions" src="https://picsum.photos/200/300" />
+          <div class="text-overlay">
+            <div class="p-1">
+              <h3>Card with text overlay</h3>
+              <span class="material-icons span hidden">cancel</span>
+            </div>
+          </div>
+        </div>
+
+        <img class="hidden" src="https://picsum.photos/200/300" />
+        <div class="px-1">
+          <p class="pt-1">
+            Card with random text on it. Please don't read it!!
+          </p>
+        </div>
+
+        <div class="p-1 buttons flex space-between">
+          <button class="read btn btn-default">Read</button>
+          <button class="bookmark btn btn-default">Bookmark</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container flex">
+      <div class="card horizontal-card">
+        <div class="flex-container">
+          <img
+            class="img img-border horizontal-img align-self-stretch"
+            src="https://picsum.photos/200/300"
+          />
+          <div class="horizontal-card-text align-start p-1">
+            <h3>Horizontal Card</h3>
+            <p>Card with random text on it. Please don't read it!!</p>
+          </div>
+        </div>
+
+        <img
+          class="img-dimensions hidden"
+          src="https://picsum.photos/200/300"
+        />
+        <div class="px-1">
+          <p class="pt-1 hidden">
+            Card with random text on it. Please don't read it!!
+          </p>
+        </div>
+
+        <div class="hidden">
+          <button class="read btn btn-error">Read</button>
+          <button class="bookmark btn btn-primary">Bookmark</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
