@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.sm {
+  width: 40px;
+  height: 40px;
+}
+.md {
+  width: 80px;
+  height: 80px;
+}
+.lg {
+  width: 120px;
+  height: 120px;
+}
+.square {
+  border-radius: 4px;
+}
