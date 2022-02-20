@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component | Input</title>
+    <link rel="stylesheet" href="../commoncss/colors.css" />
+    <link rel="stylesheet" href="../commoncss/common.css" />
+    <link rel="stylesheet" href="../commoncss/fonts.css" />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="container flex flex-column">
+        <div>
+          <label>Username</label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            class="input"
+            required
+          />
+        </div>
+        <div>
+          <label class="incorrect">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="input incorrect-password"
+            required
+          />
+          <div class="incorrect">
+            <p>Incorrect password.</p>
+          </div>
+        </div>
+      </form>
+
+      <div class="container flex">
+        <div>
+          <input type="radio" name="radio" id="unchecked" />
+          <label for="unchecked">Radio Button</label>
+        </div>
+
+        <div>
+          <input type="radio" name="radio" id="unchecked" disabled />
+          <label for="unchecked">Disabled Radio Button</label>
+        </div>
+      </div>
+
+      <div class="container flex">
+        <div>
+          <input type="checkbox" id="checkbox1" />
+          <label for="checkbox1">Check box</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="checkbox-disabled" disabled />
+          <label for="checkbox-disabled">Disabled check box</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
